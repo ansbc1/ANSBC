@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    margin-left: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container img {
+    display: grid;
+    
+}
+
+.container .btn {
+    display: inline-block;
+    border-radius: 30px;
+    background: #0850de;
+    padding: 5px 8px;
+    margin: 5px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+img {
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.header {
+    background: radial-gradient(#FFF, #105ec4);
+}
